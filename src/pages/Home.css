@@ -1,0 +1,31 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.slide-wrapper1 {
+}
+.slide-wrapper2 {
+
+}
+.slide-wrapper3 {
+
+}
+  
+  .slide-container {
+    margin: 10px;
+    text-align: center;
+    border: 1px groove red;
+  }
+  
+  .slide-container img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+  }
+  
+  .slide-container p {
+    margin: 5px 0;
+  }
+  

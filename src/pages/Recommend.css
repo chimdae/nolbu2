@@ -1,0 +1,38 @@
+.recommend-container {
+  margin-left: 50px;
+  align-items: center;
+  margin-top: 30px;
+  border-bottom: 1px solid #ccc;
+}
+
+.categories {
+  display: flex;
+  margin-right: 20px;
+}
+
+.category {
+  cursor: pointer;
+  align-items: center;
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.category:hover {
+  background-color: #f0f0f0;
+}
+
+.category.active {
+  background-color: #ff9843;
+  color: #fff;
+}
+
+.items ul {
+  list-style: decimal;
+}
+
+.items li {
+  margin-bottom: 10px;
+}

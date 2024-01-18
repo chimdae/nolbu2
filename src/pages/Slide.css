@@ -1,0 +1,30 @@
+.root-wrap {
+    overflow: hidden;
+  }
+  
+  .slide1 {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slide1 img {
+    height: 100px;
+    width: auto;
+    object-fit: cover;
+    display: none;
+  }
+  
+  .slide1 img.active {
+    display: block;
+  }
+  
+  /* 슬라이드 애니메이션을 위한 추가 스타일 */
+  .slide1 {
+    width: 100%;
+  }
+  
+  .slide1 img {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
