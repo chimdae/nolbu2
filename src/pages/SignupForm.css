@@ -37,6 +37,15 @@
     border-radius: 4px;
 }
 
+.date-picker {
+    display: flex;
+  }
+  
+  .date-input {
+    flex: 1;
+    margin-right: 10px;
+  }
+
 .signup-form-button {
     width: calc(100% - 20px);
     height: 50px;
@@ -54,4 +63,23 @@
 
 .signup-form-button:hover {
     background-color: #2d5aa2;
+}
+
+.signup-form-item.checkbox {
+    position: relative;
+    margin-left: 25px;
+}
+
+.signup-form-item.checkbox input {
+    position: absolute;
+    top: 50%;
+    left: -140px;
+    transform: translateY(-50%) scale(0.5);
+}
+
+.signup-form-item.checkbox label {
+    position: relative;
+    text-align: left;
+    padding-left: 5px;
+    font-size: 14px;
 }
