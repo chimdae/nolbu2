@@ -16,7 +16,7 @@
     margin-bottom: 40px; /* 하단 여백 조정 */
     text-align: center;
     font-size: 36px;
-    color: #3468C0;
+    color: #29ADB2;
 }
 
 .signup-form-item {
@@ -52,7 +52,7 @@
     font-size: 16px;
     margin-top: 40px;
     margin-bottom: 20px;
-    background-color: #3468C0;
+    background-color: #29ADB2;
     color: white;
     border: none;
     border-radius: 6px;
@@ -62,7 +62,7 @@
 }
 
 .signup-form-button:hover {
-    background-color: #2d5aa2;
+    background-color: #209094;
 }
 
 .signup-form-item.checkbox {

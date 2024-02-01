@@ -21,7 +21,7 @@
     text-align: center;
     margin-bottom: 40px; /* 하단 여백 조정 */
     font-size: 36px;
-    color: #3468C0;
+    color: #29ADB2;
 }
 
 .login-form-item input {
@@ -41,7 +41,7 @@
     font-size: 16px;
     margin-top: 40px;
     margin-bottom: 20px;
-    background-color: #3468C0;
+    background-color: #29ADB2;
     color: white;
     border: none;
     border-radius: 6px;
@@ -51,7 +51,7 @@
 }
 
 .login-form-button:hover {
-    background-color: #2d5aa2;
+    background-color: #209094;
 }
 
 .login-form-link {
